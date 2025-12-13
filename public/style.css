@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
 body {
     background-color: #f5f6fa;
     margin: 0;
@@ -29,12 +30,6 @@ h1 {
     gap: 30px;
     flex-wrap: wrap;
 }
-.team ul{
-    list-style-type: none;
-    text-align: center;
-    padding: 0; 
-}
-
 .card {
     background-color: #ffffff;
     border: 1px solid #dcdde1;
