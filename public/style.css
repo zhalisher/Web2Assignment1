@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
 body {
-    background-color: #f5f6fa;
+    background-color: #0C0B0B;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,17 +11,14 @@ body {
     text-align: center;
     margin-top: 50px;
 }
-
-.description {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-h1 {
+.project-name {
     font-size: 2.5em;
-    color: #2f3640;
+    color: #B8B8B8;
     margin-bottom: 30px;
+}
+.team-members{
+    color: #B8B8B8;
+    margin-bottom: 2rem;
 }
 
 .team {
@@ -31,8 +28,8 @@ h1 {
     flex-wrap: wrap;
 }
 .card {
-    background-color: #ffffff;
-    border: 1px solid #dcdde1;
+    background-color: #161515;;
+    color: #FFF;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
@@ -46,7 +43,8 @@ h1 {
 }
 
 .descr {
-    background: #ffffff;
+    background-color: #161515;
+    color: #FFF;
     padding: 30px;
     border-radius: 12px;
     margin: 40px;
@@ -67,7 +65,8 @@ h1 {
 
 .future {
     display: grid;;
-    background: #ffffff;
+    background-color: #161515;
+    color: #FFF;
     padding: 30px;
     border-radius: 12px;
     margin: 40px;
