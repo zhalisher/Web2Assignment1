@@ -45,3 +45,35 @@ h1 {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
+.descr {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.descr h3 {
+    margin-bottom: 15px;
+}
+
+.features {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.future {
+    display: grid;;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.future td {
+    padding: 15px;
+}
