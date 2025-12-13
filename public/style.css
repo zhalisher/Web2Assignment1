@@ -29,6 +29,9 @@ h1 {
     gap: 30px;
     flex-wrap: wrap;
 }
+.team ul{
+    list-style-type: none;
+}
 
 .card {
     background-color: #ffffff;
