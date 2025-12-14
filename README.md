@@ -11,6 +11,12 @@ Our platform will provide information about each film including things like plot
 * Arlan - Group SE-2429 - Backend, Node.js.
 
 ## Topic explanation
+Our web application is aimed at creating reliable movie streaming and review platform.
+Users will be able to:
+* Watch content directly on the platform
+* Read and write reviews for films
+* Access detailed information about each film (cast, genre, synopsis, release year and etc)
+* Create personalized watchlists and mark favorite movies
 
 ## Installation & Setup Instructions
 ### Prerequisites
