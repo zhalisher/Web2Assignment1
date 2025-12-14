@@ -13,6 +13,20 @@ Our platform will provide information about each film including things like plot
 ## Topic explanation
 
 ## Installation & Setup Instructions
+### Prerequisites
+* Node.js
+* npm
+
+### Installation Steps
+1. Extract the project files.
+2. Go to the project directory.
+3. Install dependencies.
+npm install
+
+5. Start the server.
+node server.js
+
+7. Open your browser and go to http://localhost:3000
 
 ## Roadmap of future steps
 
