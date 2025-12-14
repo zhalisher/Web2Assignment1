@@ -21,10 +21,10 @@ Our platform will provide information about each film including things like plot
 1. Extract the project files.
 2. Go to the project directory.
 3. Install dependencies.
-npm install
+<img width="100" height="20" alt="image" src="https://github.com/user-attachments/assets/a3302c7e-0248-4737-a30e-27022d59f787" />
 
 5. Start the server.
-node server.js
+<img width="125" height="20" alt="image" src="https://github.com/user-attachments/assets/b3b1f18f-97fc-43ae-92f5-280a010b0969" />
 
 7. Open your browser and go to http://localhost:3000
 
