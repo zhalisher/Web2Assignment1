@@ -23,10 +23,10 @@ Our platform will provide information about each film including things like plot
 3. Install dependencies.
 <img width="100" height="20" alt="image" src="https://github.com/user-attachments/assets/a3302c7e-0248-4737-a30e-27022d59f787" />
 
-5. Start the server.
+4. Start the server.
 <img width="125" height="20" alt="image" src="https://github.com/user-attachments/assets/b3b1f18f-97fc-43ae-92f5-280a010b0969" />
 
-7. Open your browser and go to http://localhost:3000
+5. Open your browser and go to http://localhost:3000
 
 ## Roadmap of future steps
 
