@@ -15,3 +15,21 @@ Our platform will provide information about each film including things like plot
 ## Installation & Setup Instructions
 
 ## Roadmap of future steps
+
+We aligned our roadmap with the course syllabus: starting from Express setup and frontend basics, then server-side handling, APIs, and finally database and CRUD operations
+
+Week 1 (done) : 
+  Introduction to Web Technologies: 
+    project setup, Express server, project structure, landing page (frontend basics)
+
+Week 2: Introduction to Backend Web Development:
+  framework basics, backend components, MVC concept, forms + POST routes (register & login pages)
+  
+Week 3 : Working with Server Side:
+  handle HTTP requests/responses, routing logic, basic server-side processing and validation
+  
+Week 4: Introduction to APIs:
+  understand APIs, work with JSON, integrate external movie APIs (genre, description, cast &crew, etc)
+  
+Week 5: Mid-term:
+  working with databases, database fundamentals, ER modeling, ORM usage, CRUD operations (users, movies/TV series, reviews, description)
