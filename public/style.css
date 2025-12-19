@@ -116,6 +116,51 @@ footer p{
     text-decoration: none;
 }
 
-
 /* отсюда уже contact us */
 
+.message{
+    background-color: #161515;
+    width: 100%;         
+    max-width: 566px;   
+    flex-direction: column; 
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form h2{
+    color: #B8B8B8;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-group label{
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea{
+    background-color: #6A6A6A;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+
+}
+
+.form-group textarea{
+    resize: none;
+    min-height: 100px;
+}
