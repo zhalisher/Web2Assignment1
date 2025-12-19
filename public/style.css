@@ -92,11 +92,30 @@ footer{
     background: black;
     height: 30vh;
 
+    padding: 40px 60px;
 
     display: flex;
-    justify-content: center;
+
     align-items: center;
 }
 footer p{
     color: #6A6A6A;
 }
+.footer-column h6 {
+    color: #6A6A6A;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+}
+.footer-column ul li a {
+    color: #C9C9C9;
+    text-decoration: none;
+}
+
+
+/* отсюда уже contact us */
+
