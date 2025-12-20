@@ -88,6 +88,24 @@ nav .logo{
 .future td {
     padding: 15px;
 }
+
+@media (min-width: 992px) {
+    .carousel-item img {
+        display: block;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+}
+
+.title h2{
+    color: #B8B8B8;
+}
+
+.title .btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
 footer{
     background: black;
     height: 30vh;
@@ -97,6 +115,7 @@ footer{
     display: flex;
 
     align-items: center;
+    margin-top: 40px;
 }
 footer p{
     color: #6A6A6A;
