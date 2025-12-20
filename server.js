@@ -6,9 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use((req, res) => {
-    res.status(404).send('404 Not Found');
-});
+
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
@@ -30,5 +28,7 @@ app.post('/submit', (req, res) => {
     console.log(req.body);
     res.sendFile(path.join(__dirname, 'views', 'test.html'));
 });
-
+app.use((req, res) => {
+    res.status(404).send('404 Not Found');
+});
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
