@@ -48,7 +48,7 @@ The contact page includes
 * Email input
 * Message textarea 
 * Submit button
-When the data is submitted data would be sent thourgh POST method and it would lead to text.html page where user sees that his message was successfuly sent
+* When the data is submitted data would be sent thourgh POST method and it would lead to text.html page where user sees that his message was successfuly sent
 The full data of name, email and message stored in console (temporary) 
 <img width="1903" height="891" alt="изображение" src="https://github.com/user-attachments/assets/6ac76092-8955-4d02-a788-5460bad6c849" />
 
