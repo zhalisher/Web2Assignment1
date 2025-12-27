@@ -16,6 +16,14 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
+app.get('/search', (req, res) => {
+  const q = req.query.q;
+  if (!q) {
+    return res.status(400).send('Missing search query');
+  }
+  res.send(`<h2>Search result for: ${q}</h2><a href="/">Back</a>`);
+});
+
 app.get('/contact.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'contact.html'));
 });

@@ -21,9 +21,16 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link btn btn-outline-dark ms-2" href="#">GET STARTED</a></li>
-                        </ul>
+                        <form class="d-flex ms-auto" action="/search" method="GET">
+                            <input 
+                                class="form-control me-2"
+                                type="search"
+                                name="q"
+                                placeholder="Search movies..."
+                                required
+                            >
+                            <button class="btn btn-warning" type="submit">Search</button>
+                        </form>
                     </div>
                     
                 </div>
