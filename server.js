@@ -33,4 +33,8 @@ app.post('/submit', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'test.html'));
 });
 
+app.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
+});
+
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
