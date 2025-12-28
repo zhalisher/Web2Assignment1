@@ -41,6 +41,8 @@ Users will be able to:
 * /contact.html contact us page where user can send a message
 * /test.html a test page created to check if the message from contact.html were sent successfully (temporary)
 * /randomroute if user types for random route that doesnt exist, error message 404 would occure
+* /item/id returns information about a specific item based on its id
+* /api/info returns inrofmation about project itself 
 
 ## Contact form details
 The contact page includes 
@@ -49,7 +51,8 @@ The contact page includes
 * Message textarea 
 * Submit button
 * When the data is submitted data would be sent thourgh POST method and it would lead to text.html page where user sees that his message was successfuly sent
-The full data of name, email and message stored in console (temporary) 
+The full data of name, email and message stored in console (temporary)
+Update: now submitted data from contact info after submit is saved in contact.json file 
 <img width="1903" height="891" alt="изображение" src="https://github.com/user-attachments/assets/6ac76092-8955-4d02-a788-5460bad6c849" />
 
 
