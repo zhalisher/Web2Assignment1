@@ -42,7 +42,7 @@ Week 1 (done) :
   Introduction to Web Technologies: 
     project setup, Express server, project structure, landing page (frontend basics)
 
-Week 2: Introduction to Backend Web Development:
+Week 2: (done) Introduction to Backend Web Development:
   framework basics, backend components, MVC concept, forms + POST routes (register & login pages)
   
 Week 3 : Working with Server Side:
