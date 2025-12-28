@@ -34,6 +34,25 @@ Users will be able to:
 
 5. Open your browser and go to http://localhost:3000
 
+## Available routes 
+* / main page 
+* /index.html main page (to move from other pages to main with navigation)
+* /about.html about us page where information about the team and project is displayed
+* /contact.html contact us page where user can send a message
+* /test.html a test page created to check if the message from contact.html were sent successfully (temporary)
+* /randomroute if user types for random route that doesnt exist, error message 404 would occure
+
+## Contact form details
+The contact page includes 
+* Name input
+* Email input
+* Message textarea 
+* Submit button
+* When the data is submitted data would be sent thourgh POST method and it would lead to text.html page where user sees that his message was successfuly sent
+The full data of name, email and message stored in console (temporary) 
+<img width="1903" height="891" alt="изображение" src="https://github.com/user-attachments/assets/6ac76092-8955-4d02-a788-5460bad6c849" />
+
+
 ## Roadmap of future steps
 
 We aligned our roadmap with the course syllabus: starting from Express setup and frontend basics, then server-side handling, APIs, and finally database and CRUD operations
